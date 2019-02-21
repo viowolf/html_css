@@ -3,7 +3,11 @@
 	<head> <!-- В теге head размещаются заголовок страницы, подключение CSS, JS. Техническая информация -->
 		<meta charset="utf-8">
 		<title>HTML и CSS для web-разработчиков</title>
+		
 		<link href="style/style.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery_3.3.1.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		
 	</head>
 	<body>
 		<div id="container">
@@ -11,11 +15,24 @@
 				<span id="site_name">HTML и CSS для web-разработчиков</span>
 			</div>
 			<div id="left_block">
-				left_block
+				<div id="main_menu">
+					<ul>
+						<li>
+							<a href="index.html">Главная</a>
+						</li>
+						<li>
+							<a href="#!headers.html" onclick="loadHtmlFile(this);">Заголовки</a>
+						</li>
+						<li>
+							<a href="#!headers2.html" onclick="loadHtmlFile(this);">Ошибка</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div id="center_block">
 				center_block
 			</div>
+			
 			<div id="right_block">
 				right_block
 			</div>
