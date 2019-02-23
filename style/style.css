@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	font: 0.46cm Arial, sans-serif;
+	font: 0.46cm arial, sans-serif;
 	line-height: 1.4;
 	background: white;
 	color: black;
@@ -129,3 +129,26 @@ div{
 	background: maroon;
 	color: yellow;
 	padding: 5px;/*Поля вокруг текста*/
+}
+
+.sr_input{
+	height: 40px;
+	width: 200px;
+	
+	/*фон*/
+	background-image: url("../images/bg.jpg"); /*Изображения для фона*/
+	background-color: #fff;
+	background-position: 95% 50%; /*Начальное положение картинки фона слева 95%; сверху - 50%*/
+	background-repeat: no-repeat;
+	
+	/*шрифт*/
+	font-family: arial;
+	color: #ccc;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	
+	/*границы*/
+	border: 1px solid #ccc;
+	border-radius: 5px; /*Радиус закругления углов*/
+}
